@@ -21,7 +21,12 @@ public class Door : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(doorTag, LoadSceneMode.Single);            
+            SceneChange();            
         }
+    }
+
+    public void SceneChange()
+    {
+        SceneManager.LoadScene(doorTag, LoadSceneMode.Single);
     }
 }
