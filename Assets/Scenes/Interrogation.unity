@@ -729,6 +729,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3292657645953925573, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: m_Color.a
+      value: 0.8039216
+      objectReference: {fileID: 0}
     - target: {fileID: 3292657647476544605, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -757,6 +761,10 @@ PrefabInstance:
       propertyPath: yarnProject
       value: 
       objectReference: {fileID: 7545569452688597077, guid: 8158af43064f5c8438cd030701b12be0, type: 3}
+    - target: {fileID: 7778558434911714087, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: m_Color.a
+      value: 0.8039216
+      objectReference: {fileID: 0}
     - target: {fileID: 7778558434935992803, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
