@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class Casette : MonoBehaviour
 {
-    public GameObject inventoryBar;
-    public GameObject cassetteButton;
-
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,8 +23,7 @@ public class Casette : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Instantiate(cassetteButton, new Vector3(inventoryBar.transform.position.x + 25, inventoryBar.transform.position.y,0), Quaternion.identity);
-            cassetteButton.transform.SetParent(inventoryBar.transform);
+            audioSource.Play();
         }
     }
 }
