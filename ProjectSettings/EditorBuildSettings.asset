@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Owner.unity
     guid: e48f2885abb8fe84c8af28ee97344190
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Archive/Interrogation_Archive.unity
     guid: 5b024129eb00d3947b481bc6d6618d1e
   - enabled: 1
@@ -29,7 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bird.unity
     guid: 1d8fa9b1937c39b4e851c5494150e32d
+  - enabled: 0
+    path: Assets/Scenes/Archive/InterogationScene.unity
+    guid: f18554733fe59b942ac24795bc575fe5
   - enabled: 1
     path: Assets/Scenes/Interrogation.unity
-    guid: f18554733fe59b942ac24795bc575fe5
+    guid: 26116ecb00b8fd9449b427e293c1e4e5
   m_configObjects: {}

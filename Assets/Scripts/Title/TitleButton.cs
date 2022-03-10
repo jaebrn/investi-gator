@@ -11,6 +11,7 @@ public class TitleButton : MonoBehaviour
     void Start()
     {
         Button thisButton = button.GetComponent<Button>(); // accessing start button
+
     }
 
     // Update is called once per frame
