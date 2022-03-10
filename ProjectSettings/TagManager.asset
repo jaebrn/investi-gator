@@ -11,6 +11,7 @@ TagManager:
   - Dog
   - Bird
   - Interrogation
+  - LobbyUI
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Door : MonoBehaviour
 {
@@ -12,17 +13,30 @@ public class Door : MonoBehaviour
      */
 
     private string doorTag;
+    public Text doorLabel;
+    public GameObject doorLabelGameObj;
 
     private void Awake()
     {
         doorTag = gameObject.tag;
+        doorLabelGameObj = GameObject.FindGameObjectWithTag("LobbyUI");
+        doorLabel = doorLabelGameObj.GetComponent<Text>();
     }
     private void OnMouseOver()
     {
+        if (doorTag != "lobby")
+        {
+            doorLabel.text = doorTag;
+        }
         if (Input.GetMouseButtonDown(0))
         {
             SceneChange();            
         }
+    }
+
+    private void OnMouseExit()
+    {
+        doorLabel.text = null;
     }
 
     public void SceneChange()
