@@ -20,7 +20,10 @@ public class Door : MonoBehaviour
     {
         doorTag = gameObject.tag;
         doorLabelGameObj = GameObject.FindGameObjectWithTag("LobbyUI");
-        doorLabel = doorLabelGameObj.GetComponent<Text>();
+        if (doorLabelGameObj != null)
+        {
+            doorLabel = doorLabelGameObj.GetComponent<Text>();
+        }
     }
     private void OnMouseOver()
     {

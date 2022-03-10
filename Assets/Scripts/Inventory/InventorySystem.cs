@@ -9,12 +9,14 @@ public class InventorySystem : MonoBehaviour
     private Dictionary<InventoryItemData, InventoryItem> itemDictionary;
     public List<InventoryItem> inventory;
 
-    private void Awake() //dictionary setup
+    private void Start() //dictionary setup
     {
 
         current = this;
-        inventory = new List<InventoryItem>();
-        itemDictionary = new Dictionary<InventoryItemData, InventoryItem>();
+        
+            inventory = new List<InventoryItem>();
+            itemDictionary = new Dictionary<InventoryItemData, InventoryItem>();
+        
 
         DontDestroyOnLoad(gameObject);
     }
