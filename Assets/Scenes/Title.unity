@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 148763544}
   - component: {fileID: 148763548}
   - component: {fileID: 148763547}
-  - component: {fileID: 148763546}
   - component: {fileID: 148763545}
+  - component: {fileID: 148763546}
   m_Layer: 5
   m_Name: Exit Button
   m_TagString: Untagged
@@ -208,8 +208,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 148763546}
-        m_TargetAssemblyTypeName: ExitButton, Assembly-CSharp
-        m_MethodName: Exit
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: ExitOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -228,9 +228,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 148763543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 548f43759c8c30e4d90834af483713d9, type: 3}
+  m_Script: {fileID: 11500000, guid: ebcdf2aca186c844fbcb5a6ec6ad70fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 0}
 --- !u!114 &148763547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,7 +908,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1917151928}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1917151927}
+        m_TargetAssemblyTypeName: TitleButton, Assembly-CSharp
+        m_MethodName: StartOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1917151927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,7 +933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebcdf2aca186c844fbcb5a6ec6ad70fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 1917151926}
+  button: {fileID: 1917151926}
 --- !u!114 &1917151928
 MonoBehaviour:
   m_ObjectHideFlags: 0
