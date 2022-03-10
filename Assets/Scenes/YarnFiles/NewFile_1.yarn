@@ -1,0 +1,287 @@
+title: Squirrel
+tags: 
+colorID: 0
+position: 400,237
+---
+You: Do you know why I brought you in here today?
+
+Squirrel: Yeah. I called you in here to find me a KILLER and here you are wasting my TIME! And YOUR TIME!
+Remember you only have 15 minutes to solve this before the press gets here and we ALL get in trouble.
+
+[[I have to take precautions.]][[Do you want me to solve this or not?]]
+===
+title: I have to take precautions.
+tags: 
+colorID: 0
+position: 613,475
+---
+You: If you want me to be thorough I cannot investigate with any bias. Everyone at this hotel is a suspect.
+
+Squirrel: Sorry, let's just get on with it.
+
+[[Continue|Squirrel Interrogation 1]]
+===
+title: Do you want me to solve this or not?
+tags: 
+colorID: 0
+position: 176,475
+---
+You: Hey, you called me here and locked me in to find you a killer. I'm just doing what I have to.
+
+Squirrel: OKAY okay, let's just make this as quick as we can.
+
+[[Continue|Squirrel Interrogation 1]]
+===
+title: Squirrel Alibi
+tags: 
+colorID: 0
+position: -180,1084
+---
+You: Where were you at 10 am to 10:30 am this morning?
+
+Squirrel: Well gosh! I was out around the back doing my job! 
+I got a call saying the food that I ordered had arrived so I had to go move everything from the truck into the kitchen!
+
+[[Squirrel Interrogation 1]]
+===
+title: Squirrel Opinion on Dog
+tags: 
+colorID: 0
+position: 614,1080
+---
+You: Can you tell me anything you know about Dog?
+
+Squirrel: Don't even get me started on that guy. He's always been up to some shady stuff around here. I mean look at him! NOTHING about him screams a good person OR partner..
+You know the other day, I may or may not have saw him hanging around another kitty if you know what I'm saying. He's for sure a thug and a criminal through and through.
+
+[[Squirrel Interrogation 1]]
+===
+title: Squirrel Opinion on Cat
+tags: 
+colorID: 0
+position: 95,1084
+---
+You: Can you tell me anything you know about Cat?
+
+Squirrel: Oh she's a lovely kitty. Very lovely.. it's a damn frickin' shame she's been wasting away with that thug Dog.
+Ever since that kitty has been staying here, it's been pretty good press. I was just starting to think that business will be picking up soon now that the name ACORN INN is out there in the papers...
+Now look at us.. the record has to be set straight! That kitty and my inn deserves justice!
+
+[[Squirrel Interrogation 1]]
+===
+title: Squirrel Opinion on Bird
+tags: 
+colorID: 0
+position: 354,1079
+---
+You: Can you tell me anything you know about Bird?
+
+Squirrel: Yea that kid.. she's a quiet one for sure. But, she's been with us since the beginning. Yup, very long time. I took her in for little to no fee to help her out. 
+Yea, it couldn't have been her. How would she even hold a weapon she has no hands!
+
+[[Squirrel Interrogation 1]]
+===
+title: Start
+tags: 
+colorID: 0
+position: 1291,10
+---
+[[Interrogate Squirrel|Squirrel]]
+[[Interrogate Dog|Dog]]
+[[Interrogate Bird|Bird]]
+===
+title: Dog
+tags: 
+colorID: 0
+position: 1237,266
+---
+You: Do you know why I brought you in here today?
+
+Dog: Uhhh depends... wait who are you?
+
+You: You're married to the Cat, am I correct?
+
+Dog: depends who's asking...
+
+You: I'm a private investi-gator. 
+You appear to not have heard the news, but I deeply regret to inform you that they found the body of you wife this morning at 10 am.
+I have reason to believe that it was murder. Stab wound to be specific.
+
+Dog: WHAT??! ...
+... are you for real right now.. 
+... is she really..?
+
+You: My condolences ...
+However, moving forward, it is crucial that you comply with my investigation so that we can find the killer and bring some justice to the situation.
+I'm going to ask you some questions and it's in your best interest to answer as truthfully as possible, is that understood?
+
+Dog: Sure thing..
+
+[[Continue|Dog Interrogation 1]]
+===
+title: Bird
+tags: 
+colorID: 0
+position: 1745,232
+---
+You: Do you know why I brought you in here today?
+
+Bird: ?
+
+You: I'm afraid to inform you that a guest staying at this hotel has been found dead just half an hour ago.
+
+Bird: !!... ? 
+
+You: I have reason to believe it was murder. Stab wound to be specific.
+
+Bird: O^O !
+
+You: I also have reason to believe the killer is still in this hotel as we speak and will not be able to leave until I get to the bottom of it.
+Everyone inside this hotel as of half an hour ago is a suspect. May I ask you some questions?
+
+Bird: ! *nods head*
+
+[[Continue|Bird Interrogation 1]]
+===
+title: Squirrel Interrogation 1
+tags: 
+colorID: 0
+position: 377,740
+---
+You: I'm going to ask you a couple of questions
+
+[[Ask where he was at the time|Squirrel Alibi]]
+[[Ask about Cat|Squirrel Opinion on Cat]]
+[[Ask about Dog|Squirrel Opinion on Dog]]
+[[Ask about Bird|Squirrel Opinion on Bird]]
+[[I've heard all I need|Start]]
+===
+title: Bird Interrogation 1
+tags: 
+colorID: 0
+position: 2005,482
+---
+[[Bird Alibi]]
+[[Bird Opinion on Cat]]
+[[Bird opinion on Dog]]
+[[Bird Opinion on Squirrel]]
+[[I've heard all I need|Start]]
+===
+title: Bird Alibi
+tags: 
+colorID: 0
+position: 1963,851
+---
+You: Where were you at 10 am to 10:30 am this morning?
+
+Bird: *Shows schedule that says Sunday 10:00 am: zoom singing class*
+
+[[Bird Interrogation 1]]
+===
+title: Bird Opinion on Cat
+tags: 
+colorID: 0
+position: 2253,850
+---
+You: Can you tell me anything you know about Cat?
+
+Bird: *shrugs*
+
+[[Bird Interrogation 1]]
+===
+title: Bird opinion on Dog
+tags: 
+colorID: 0
+position: 2516,843
+---
+You: Can you tell me anything you know about Dog?
+
+Bird: *looks around*
+*hands you a photo of Dog with pills*
+
+You: Interesting...
+
+[[Bird Interrogation 1]]
+===
+title: Bird Opinion on Squirrel
+tags: 
+colorID: 0
+position: 2774,842
+---
+You: Can you tell me anything you know about Squirrel?
+
+Bird: *Beams*
+*Shows photo of young bird and young squirrel from a year ago*
+
+[[Bird Interrogation 1]]
+===
+title: Dog Alibi
+tags: 
+colorID: 0
+position: 934,1075
+---
+You: Where were you at 10 am to 10:30 am this morning?
+
+Dog: I was just hanging around the back of the hotel with a friend.
+
+You: Around the back of the hotel? Why were you meeting your friend? Why wasn't your wife with you?
+
+Dog: Uhhh... I don't know! I just sort of invited... him.. over to hang out! Why is that important?
+
+You: And you were with him the whole time? So there's no chance that when you weren't looking, he left for a bit, killed Cat and came back?
+
+Dog: No, no I was with him.
+
+[[Dog Interrogation 1]]
+===
+title: Dog Opinion on Cat
+tags: 
+colorID: 0
+position: 1182,1061
+---
+You: Can you tell me anything you know about Cat?
+
+Dog: What can I even say.. she was my lover, my angel, my ride or die!
+
+You: Well what was her purrsonality like?
+Is she the kind of feline that would perhaps get herself some trouble? Any enemies? Furrmidable opponents?
+
+Dog: No she was purrfect... every body at work loved her.
+
+[[Dog Interrogation 1]]
+===
+title: Dog Opinion on Squirrel
+tags: 
+colorID: 0
+position: 1652,1061
+---
+You: Can you tell me anything you know about Squirrel?
+
+Dog: He's kinda a creep..  I don't know much 'bout him but... he's always giving me the stink eye. 
+I don't know what that's about...
+
+[[Dog Interrogation 1]]
+===
+title: Dog Opinion on Bird
+tags: 
+colorID: 0
+position: 1412,1046
+---
+You: Can you tell me anything you know about Bird?
+
+Dog: That bird creeps me the ruff out. Whenever I say good morning to her, all she responds with are a series of high pitched sounds!
+Totally the attitude of someone who would secretly have a dark side and get away with it you know... fool around with knives and stuff?
+
+[[Dog Interrogation 1]]
+===
+title: Dog Interrogation 1
+tags: 
+colorID: 0
+position: 1236,649
+---
+[[Dog Alibi]]
+[[Dog Opinion on Cat]]
+[[Dog Opinion on Squirrel]]
+[[Dog Opinion on Bird]]
+[[I've heard all I need|Start]]
+===

@@ -1,0 +1,72 @@
+title: Start
+tags: 
+colorID: 0
+position: 79,120
+---
+You: I brought you here today because a murder took place at this hotel.
+Thug Dog: I know *tear rolls down face* it was my wife Fancy Cat. Today has been pretty ruff.
+[[Ask for their alibi |Alibi]],
+[[Interrogate them |Interrogate]],
+===
+title: Interrogate
+tags: 
+colorID: 0
+position: 783,134
+---
+You: I'd like to get your opinion on the other people in this hotel, tell me about the ...
+[[ Ask about Fancy Cat|About.Fancy.Cat]] [[ Ask about Chirpy Bird |About.Chirpy.Bird]] [[ Ask about the hotel owner|About.the.Owner]] [[ Go back |Start]]
+===
+title: Alibi
+tags: 
+colorID: 0
+position: -251,112
+---
+You: Where were you at the time of the crime?
+Thug Dog: I swear it wasn't me cuh.
+Thug Dog: I was out with one of my homeboys.
+Thug Dog: My friend was, uhh, out hitting a lick and wanted to show me da bag.
+You: I'm not sure, I follow. What is a "lick", who was he hitting and does that mean you left the premises of the hotel?
+Thug Dog: My dawg, he met me behind the hotel. He did a job for a fiesty ferret. He got paid a lot.
+Thug Dog: He was showing me the money.
+You: So to dumb it down, your friend made some money, and you met with him to see how much.
+Thug Dog: Yup.
+[[ Go back |Start]]
+===
+title: About.Fancy.Cat
+tags: 
+colorID: 0
+position: 803,844
+---
+You: What was your relation to Fancy Cat?
+Thug Dog: I told you, she was my queen. My ride or die. 
+You: So were you married to Fancy Cat?
+Thug Dog: Yes, bro. I loved her like how a dog loves their "bone".
+[[ Go Back |Start]]
+===
+title: About.the.Owner
+tags: 
+colorID: 0
+position: 417,846
+---
+You: Can you tell me anything about the owner?
+Thug Dog: The owner??? That guy is a straight up weirdo. He always be taking photos of everything.
+Thug Dog: Maybe he wanted to take pictures of a dead body.
+Thug Dog: That dog is re-pugnent.
+[[ Go Back |Start]]
+===
+title: About.Chirpy.Bird
+tags: 
+colorID: 0
+position: 1212,838
+---
+You: Can yo tell me anything about Chirpy Bird?
+Thug Dog: That Chirpy Bird always be chirping in my ear. Talking nonsense.
+You: What sort of nonsense?
+Thug Dog: She always be talking about deforestation and her cousin or something.
+Thug Dog: You know what else? That bird really likes knifes, she always got that thang on her.
+You: Are you saying that at all time the bird is armed with a weapon?
+Thug Dog: Well, not always. But you know...
+You: What do I know?
+Thug Dog: Nevermind.
+[[ Go back |Start]]
+===
