@@ -14,12 +14,16 @@ public class OwnerPuzzle : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = safe;
         
     }
 
-    private void Awake()
+    private void Update()
     {
         puzzleComplete = GameObject.Find("1").GetComponent<KeyCode>().isPuzzleComplete;
+    }
+    private void Awake()
+    {        
         if (puzzleComplete)
         {
             spriteRenderer.sprite = photos;
