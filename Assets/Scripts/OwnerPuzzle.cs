@@ -14,11 +14,12 @@ public class OwnerPuzzle : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        puzzleComplete = GameObject.Find("1").GetComponent<KeyCode>().isPuzzleComplete;
+        
     }
 
     private void Awake()
     {
+        puzzleComplete = GameObject.Find("1").GetComponent<KeyCode>().isPuzzleComplete;
         if (puzzleComplete)
         {
             spriteRenderer.sprite = photos;
@@ -26,6 +27,14 @@ public class OwnerPuzzle : MonoBehaviour
         else
         {
             spriteRenderer.sprite = safe;
+        }
+    }
+
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("Keypad_Puzzle");
         }
     }
 }
