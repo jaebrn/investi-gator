@@ -15,6 +15,7 @@ public class Door : MonoBehaviour
     private string doorTag;
     public Text doorLabel;
     public GameObject doorLabelGameObj;
+    public AudioSource audioSource;
 
     private void Awake()
     {
@@ -24,6 +25,8 @@ public class Door : MonoBehaviour
         {
             doorLabel = doorLabelGameObj.GetComponent<Text>();
         }
+
+        audioSource = GetComponent<AudioSource>();
     }
     private void OnMouseOver()
     {
@@ -33,7 +36,9 @@ public class Door : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
-            SceneChange();            
+            audioSource.Play();
+            Invoke("SceneChange", 1);
+                      
         }
     }
 
