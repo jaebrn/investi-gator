@@ -10,23 +10,25 @@ public class Slots : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("item dropped");
+        //Debug.Log("item dropped");
 
 
         if(eventData.pointerDrag != null)
         {
            if(eventData.pointerDrag.GetComponent<PhotoPuzzle>().id == id)
             {
-                Debug.Log("correct");
+                //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
+                eventData.pointerDrag.GetComponent<PhotoPuzzle>().setCorrect(true);
             }
             else
             {
-                Debug.Log("wrong");
+                eventData.pointerDrag.GetComponent<PhotoPuzzle>().setCorrect(false);
+                //eventData.pointerDrag.GetComponent<PhotoPuzzle>().Reset();
             }
 
-
-
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
+
+
         }
        
     }

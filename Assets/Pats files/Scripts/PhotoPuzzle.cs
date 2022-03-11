@@ -40,13 +40,16 @@ public class PhotoPuzzle : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private RectTransform rect;
     private CanvasGroup group;
     public int id;
+    private Vector2 pos;
+    public bool correct = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rect = GetComponent<RectTransform>();
         group = GetComponent<CanvasGroup>();
-
+        pos = transform.position;
     }
 
     // Update is called once per frame
@@ -54,4 +57,17 @@ public class PhotoPuzzle : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         
     }
+    public void Reset()
+    {
+        transform.position = pos;
+    }
+
+
+    public void setCorrect(bool cor)
+    {
+        correct = cor;
+        Debug.Log(correct);
+    }
+
+
 }
