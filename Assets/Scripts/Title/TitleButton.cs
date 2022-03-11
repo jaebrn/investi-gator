@@ -10,7 +10,7 @@ public class TitleButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Button thisButton = button.GetComponent<Button>(); // accessing start button
+        //Button thisButton = button.GetComponent<Button>(); // accessing start button
 
     }
 
@@ -29,5 +29,11 @@ public class TitleButton : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Game is Closing");
+    }
+
+    public void ClearCode()
+    {
+        KeyCode.totalDigits = 0;
+        KeyCode.playerCode = "";
     }
 }

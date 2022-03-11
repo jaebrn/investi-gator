@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interrogation.unity
     guid: 26116ecb00b8fd9449b427e293c1e4e5
+  - enabled: 1
+    path: Assets/Scenes/Pats_Files/Keypad_Puzzle.unity
+    guid: daa91478b349d7b4ea126014c1a67a39
   m_configObjects: {}

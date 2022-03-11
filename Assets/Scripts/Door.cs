@@ -36,9 +36,12 @@ public class Door : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
-            audioSource.Play();
-            Invoke("SceneChange", 1);
-                      
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
+            
+            Invoke("SceneChange", 1);                      
         }
     }
 
